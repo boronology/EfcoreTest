@@ -1,0 +1,9 @@
+services:
+  db:
+    image: postgres:latest
+    environment:
+      - POSTGRES_PASSWORD=42a4a890-c27c-4894-a2e2-159223f8d976
+      - POSTGRES_USER=efcoretestuser
+      - POSTGRES_DB=ef_blog
+    ports:
+      - 5432:5432
